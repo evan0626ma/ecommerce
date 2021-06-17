@@ -37,7 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
+    # installed rest_framework for Django api request
+    'rest_framework',
 
+    # start django-admin project and named as base
     'base.apps.BaseConfig',
 ]
 
